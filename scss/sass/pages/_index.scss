@@ -1,0 +1,26 @@
+.C6779C{
+    .scss{
+        height: 400px;
+        width: 100%;
+        padding: 30px;
+        @media screen and (max-width:600px){
+            padding:10px
+        }
+        
+        &_top{
+            background-color: $primary-color;
+
+            &_children{
+                background-color: orange;
+            }
+
+        }
+        &_bottom{
+            background-color: teal;
+            @media screen and (max-width:600px){
+                background-color: red;
+            }
+        }
+    };
+
+}

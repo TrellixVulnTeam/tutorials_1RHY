@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dom{
+    padding: 30px;
+}
+input{
+    padding: 10px;
+}
+.result{
+    font-size: 20px;
+}
+.removable{
+    background-color: teal;
+    color: aliceblue;
+}
+.modal{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.display_block{
+    display: block !important;
+}
+.dimmer{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.349);
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    display: none;
+}

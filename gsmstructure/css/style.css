@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+input, button{
+    border: none;
+}
+input:focus, button:focus{
+    outline: none;
+}
+.navbar_container{
+    width: 100%;
+    background-color: #9E9E9E;
+    height: 52px;
+}
+.navbar_gsm{
+    max-width: 1100px;
+    margin: auto;
+    height: 100%;
+    background-color: #616161;
+    display: flex;
+}
+.navbar_gsm .child{
+    display: flex;
+    color: #FFFFFF;
+    border-right: 2px solid teal;
+}
+.navbar_gsm .hamburger{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.navbar_gsm .logo{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.navbar_gsm .child:first-child, .child:last-child{
+    width: 25%;
+}
+.navbar_gsm .child:last-child{
+    width: 45%;
+}
+.navbar_gsm .child:nth-child(2){
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.navbar_gsm .child:last-child ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.navbar_gsm .child:last-child ul li{
+    width: 16.5%;
+    font-size: 20px;
+    height: 30px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_gsm .child:last-child ul li:first-child, li:nth-child(6){
+    border-right: .5px solid #fff;
+}
+
+.navbar_gsm .child:nth-child(2) input{
+    height: 34px;
+    margin-top: 9px;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border: none;
+    color: #fff !important;
+    padding: 5px 15px;
+}
+.navbar_gsm .child:nth-child(2) button{
+    height: 34px;
+    margin-top: 9px;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border: none;
+    color: #fff;
+    position: relative;
+}
+.navbar_gsm .child:nth-child(2) button::after{
+    position: absolute;
+    content: " ";
+    left: 0;
+    z-index: 0;
+    width: 1px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.492);
+    top: 50%;
+    transform: translateY(-50%);
+}

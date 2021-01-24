@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  margin: 0; }
+
+.C6779C .scss {
+  height: 400px;
+  width: 100%;
+  padding: 30px; }
+  @media screen and (max-width: 600px) {
+    .C6779C .scss {
+      padding: 10px; } }
+  .C6779C .scss_top {
+    background-color: #f0f34d; }
+    .C6779C .scss_top_children {
+      background-color: orange; }
+  .C6779C .scss_bottom {
+    background-color: teal; }
+    @media screen and (max-width: 600px) {
+      .C6779C .scss_bottom {
+        background-color: red; } }
+
+.about {
+  padding: 90px;
+  color: #2A2A2A; }
